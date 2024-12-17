@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz para programadores</title>
+</head>
+
+<head>
+    <title>Quiz para programadores</title>
+    <meta name="description" content="Um quiz interativo para testar os seus conhecimentos">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Quiz interativo para programadores</h1>
+        <p>Teste os seus conhecimentos em programação e veja qual pontuação você consegue fazer!</p>
+    </header>
+    <main>
+        <section>
+            <h2>Sobre esse quiz</h2>
+            <p><strong>Esse quiz</strong> foi feito para testar os seus conhecimentos em programação.</p>
+            <p> Ele contém perguntas de múltipla escolha sobre diversos tópicos, como lógica de programação,
+                algoritmos, estruturas de dados, <em>linguagens de programação</em>, entre outros.</p>
+            <p>Cada pergunta tem quatro alternativas, sendo que apenas uma delas é a
+                correta.</p>
+            <p>Você poderá encontrar alguns ancrônimos como <abbr title="HyperText Markup Language">HTML</abbr> e <abbr
+                    title="Cascading Style Sheets">CSS</abbr>,
+                que são comumente
+                usados em questões relacionadas ao desenvolvimento web.</p>
+            <p>Ao final do quiz, você verá a sua pontuação e poderá compartilhar o seu resultado com os seus
+                amigos. <br>Divirta-se!</p>
+        </section>
+
+        <section>
+            <h2>Pergunta 1: Qual linguagem é usada para estruturar páginas WEB?</h2>
+            <form>
+                <input type="radio" name="pergunta1" value="a" id="alternativa1">
+                <label for="alternativa1">HTML</label><br>
+                <input type="radio" name="pergunta1" value="b" id="alternativa2">
+                <label for="alternativa2">CSS</label><br>
+                <input type="radio" name="pergunta1" value="c" id="alternativa3">
+                <label for="alternativa3">JavaScript</label><br>
+                <input type="radio" name="pergunta1" value="d" id="alternativa4">
+                <label for="alternativa4">Python</label><br>
+            </form>
+        </section>
+
+        <section>
+            <h2>Pergunta 2: Na URL https://www.google.com o trecho "google.com" é o ______?</h2>
+            <form>
+                <input type="text" id="pergunta2" name="pergunta2" placeholder="Digite sua resposta...">
+            </form>
+        </section>
+
+        <section>
+            <h2>
+                Pergunta 3: Escreva um exemplo de senha forte:</h2>
+            <form>
+                <input type="password" id="pergunta3" name="pergunta3" placeholder="Digite uma senha...">
+            </form>
+        </section>
+
+        <section>
+            <h2>Pergunta 4: Em que ano HTML lançou a sua primeira versão?</h2>
+            <form>
+                <input type="date" id="pergunta4" name="pergunta4">
+            </form>
+        </section>
+
+        <section>
+            <h2> Pergunta 5: Quais dessas tecnologias são consideradas linguagens de programação?</h2>
+            <form>
+                <input type="checkbox" id="alternativa1" name="pergunta5" value="JavaScript">
+                <label for="alternativa1">JavaScript</label>
+                <input type="checkbox" id="alternativa2" name="pergunta5" value="HTML">
+                <label for="alternativa2">HTML</label>
+                <input type="checkbox" id="alternativa3" name="pergunta5" value="Java">
+                <label for="alternativa3">Java</label>
+                <input type="checkbox" id="alternativa4" name="pergunta5" value="CSS">
+                <label for="alternativa4">CSS</label>
+            </form>
+
+        </section>
+
+        <section>
+            <h2>Pergunta6: Faça o upload de um arquivo contendo código HTML</h2>
+            <form>
+                <input type="file" id="pergunta6" name="pergunta6">
+            </form>
+        </section>
+
+        <section>
+            <h2>Pergunta7: Selecione o atributo do input que define o seu tipo:</h2>
+            <form>
+                <select name="pergunta7" id="pergunta7">
+                    <option value="id">id</option>
+                    <option value="type">type</option>
+                    <option value="placeholder">placeholder</option>
+                </select>
+            </form>
+        </section>
+
+        <section>
+            <h2> Pergunta 8: Qual linguagem de programação é representada pelo logotipo abaixo?</h2>
+            <figure><img src="./assets/Dart-logo.png" alt="Logotipo de uma linguagem de programação"><br>
+                <figcaption>Figura1: Logotipo de uma linguagem de programação</figcaption>
+            </figure>
+            <input type="text" id="pergunta8" name="pergunta8" placeholder="Digite sua resposta...">
+        </section>
+
+        <section>
+            <h2>Tabela de pontuação</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Pontuação</th>
+                        <th>Avaliação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0-2</td>
+                        <td>Não desista! Cada tentativa é uma oportunidade de aprendizado.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3-4</td>
+                        <td>Você ainda precisa melhorar. Que tal estudar mais sobre programação?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5-7</td>
+                        <td>Parabéns! Você está no caminho certo. Continue praticando!
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8-10</td>
+                        <td>Excelente! Você é um(a) programador(a) experiente. Continue assim!
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Boa sorte na próxima!</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section>
+            <h2>Verifique suas respostas</h2>
+            <details>
+                <summary>Clique aqui para ver as respostas</summary>
+                <ol>
+                    <li>HTML</li>
+                    <li>Domínio</li>
+                    <li>Exemplo de senha: Ab23@Fsdfsf@#!</li>
+                    <li>1991</li>
+                    <li>JavaScript, Java</li>
+                    <li>Arquivo deve ter extensão .html</li>
+                    <li>type</li>
+                    <li>Dart</li>
+                </ol>
+            </details>
+        </section>
+
+        <section>
+            <h2>Nos dê o seu feedback</h2>
+            <form>
+                <fieldset>
+                    <legend>Informações de contato</legend>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="comments">Comentários:</label><br>
+                    <textarea name="comments" id="comments" rows="4" cols="50"
+                        placeholder="Digite seus Comentários"></textarea><br>
+                    <button onclick="alert('FEEDBACK ENVIADO')">Enviar feedback</button>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p class="paragrafo-footer">&copy Quiz de programadores. Todos os direitos reservados.</p>
+        <p class="paragrafo-footer">Para conhecer mais sobre mim <a href="https://github.com/MariaGabriele00"
+                target="_blank">clique aqui</a></p>
+    </footer>
+</body>
+
+</html>

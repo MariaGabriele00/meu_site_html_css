@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Playwrite+DE+VA+Guides&family=Playwrite+ES+Deco+Guides&family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Pangolin", cursive;
+    background-color: #ebe9ec;
+    color: #be0095;
+    font-weight: 400;
+    font-size: large;
+}
+
+header {
+    background-color: #2b0823;
+    color: #ebe9ec;
+    padding: 2rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h2 {
+    color: #2b0823;
+    font-size: 1.2rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #be0095;
+}
+
+input[type="text"],
+[type="email"],
+[type="password"],
+[type="email"] {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #be0095;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+input::placeholder {
+    color: #5a5a5a;
+}
+
+select {
+    cursor: pointer;
+    background-color: #2b0823;
+    color: #ffeefb;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+}
+
+img {
+    width: 5rem;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #2b0823;
+    color: #ebe9ec;
+    padding: 1rem;
+}
+
+td {
+    background-color: #ebe9ec;
+    color: #2b0823;
+    padding: 1rem;
+    text-align: center;
+}
+
+tfoot td {
+    background-color: #2b0823;
+    color: #ebe9ec;
+}
+
+details {
+    background-color: #2b0823;
+    color: #ebe9ec;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+summary {
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+ol {
+    margin-left: 1.5rem;
+}
+
+ol li {
+    padding: 0.2rem;
+}
+
+fieldset {
+    border: 2px solid #be0095;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend {
+    color: #2b0823;
+    padding: 0 0.5rem;
+}
+
+textarea {
+    border: 2px solid #be0095;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+button {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2b0823;
+    color: #ebe9ec;
+}
+
+footer {
+    background-color: #2b0823;
+    padding: 2rem;
+    text-align: center;
+}
+
+.paragrafo-footer {
+    color: #ebe9ec;
+}
+
+footer a {
+    color: #ff72e0;
+    text-decoration: none;
+}
